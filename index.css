@@ -56,7 +56,6 @@ body, html {
 #frame #navigation .item p {
 	color: #E0E0E0;
 	font-size: 25px;
-	padding-top: 8px;
 	padding-left: 4%;
 }
 
@@ -71,6 +70,7 @@ body, html {
 }
 
 #frame #navigation .item img {
+	padding-bottom: 8px;
 	left: 2%;
 }
 
