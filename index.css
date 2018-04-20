@@ -8,15 +8,6 @@ body, html {
 	overflow: hidden;
 }
 
-p {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
 #header {
 	background: linear-gradient(135deg, #26A69A, #00897B);
 	height: 75px;
@@ -54,6 +45,12 @@ p {
 
 #frame #navigation .item * {
 	position: absolute;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #frame #navigation .item p {
