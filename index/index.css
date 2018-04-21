@@ -1,4 +1,4 @@
-@import url("style.css");
+@import url("../style.css");
 
 * {margin: 0; padding: 0;}
 
@@ -22,7 +22,8 @@ body, html {
 
 #frame {
 	display: flex;
-	float: left;
+	align-items: flex-start;
+    justify-content: flex-start;
 	height: 100%;
 	width: 100%;
 }

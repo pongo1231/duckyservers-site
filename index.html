@@ -2,27 +2,29 @@
 <html>
 	<head>
 		<title>DuckyServers</title>
-		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="index/index.css">
+		<script src="lib/jquery-3.3.1.min.js"></script>
+		<script src="index/index.js"></script>
 	</head>
 
 	<body>
 		<div id="header">
-			<h1 id="text">DuckyServers</h1>
+			<h1 id="text">DuckyServers |\__( o)></h1>
 		</div>
 
 		<div id="frame">
 			<div id="navigation">
-				<div class="item">
-					<img src="info.png"></p>
+				<div class="item" data-goto="about/about.html">
+					<img src="about/info.png"></p>
 					<p>About</p>
 				</div>
-				<div class="item">
-					<img src="server.png"></p>
+				<div class="item" data-goto="servers/servers.html">
+					<img src="servers/server.png"></p>
 					<p>Servers</p>
 				</div>
 			</div>
 
-			<object type="text/html" id="container" data="about.html"></object>
+			<object type="text/html" id="container" data="about/about.html"></object>
 		</div>
 	</body>
 </html>
